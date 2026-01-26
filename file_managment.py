@@ -1,12 +1,12 @@
-import json
+import zarr
+import numpy as np
 
 class database():
     def __init__(self):
-        with open("database.json", "r") as file:
-            database = json.load(file)
+        pass
 
-    def get_entry(self, num):
-        return database[num]["entry"]
+    def get_embed(self, num):
+        return
     
     def get_url(self, num):
-        return database[num]["url"]
+        return
